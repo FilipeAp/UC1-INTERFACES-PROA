@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+main{
+    position:relative;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 15px;
+}
+#header_principal{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 250%;
+}
+#nav_superior{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    background-color: #000099;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+
+    & a{
+        color: white;
+        text-decoration: none;
+    }
+}
+#nav_lateral{
+    position: relative;
+    width: 20%;
+    height: 540px;
+    background-color: #999999;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    & a{
+        color: white;
+        text-decoration: none;
+        margin:10px
+    }
+}
+
+hr{
+    position: relative;
+    width: 100%;
+    height: 2px;
+    background-color: #BBBBBB;
+}
+
+section{
+    position: relative;
+    width: 60%;
+    height: 550px;
+    font-size: 250%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    float: left;
+}
+
+#header_secundario{
+    position: relative;
+    width: 95%;
+    height: 40px;
+    font-size: 55%;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+#div1{
+    position: relative;
+    width: 95%;
+    height: 200px;
+    & img{
+        width: 100%;
+        height: 100%
+    };
+}
+
+p{
+    position: relative;
+    width: 95%;
+    height: 100px;
+    background-color:#CCFFFF;
+    font-size: 36%;
+    padding: 1%;
+    
+}
+#div_main{
+    position: relative;
+    width: 95%;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#div2{
+    position: relative;
+    width: 30%;
+    height: 120px;
+    float: left;
+    & img{
+        width: 100%;
+        height: 100%
+    };
+}
+#div3{
+    position: relative;
+    width: 30%;
+    height: 120px;
+    float: left;
+    & img{
+        width: 100%;
+        height: 100%
+    };
+}#div4{
+    position: relative;
+    width: 30%;
+    height: 120px;
+    float: left;
+    background-color: #666666;
+    & img{
+        width: 100%;
+        height: 100%
+    };
+}
+
+
+aside{
+    position: relative;
+    width: 20%;
+    height: 550px;
+    float: left;
+    & img{
+        width: 100%;
+        height: 100%
+    };
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    clear: left;
+    font-size: 200%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
