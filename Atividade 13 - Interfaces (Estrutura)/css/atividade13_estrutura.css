@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main{
+    position: relative;
+    width: 90%;
+    height: 1780px;
+    background-color: #C57173;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background-color: #B3EA1D;
+}
+
+#home{
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background-color: #BA1211;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 20px;
+
+    & div{
+        position: relative;
+        width: 43%;
+        height: 280px;
+        background-color: #BA8A8A;
+        padding: 30px;
+    }
+}
+
+
+#produtos{
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background-color: #81E1E0;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.produto {
+    position: relative;
+    width: 20%;
+    height: 310px;
+    background-color: #F9FBFA;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#endereco{
+    position: relative;
+    background-color: #BA5511;
+    width: 100%;
+    height: 350px;
+    padding: 30px;
+}
+
+#contato{
+    position: relative;
+    width: 100%;
+    height: 375px;
+    background-color: #FFFF00;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+
+    & div{
+        position: relative;
+        width: 43%;
+        height: 320px;
+        padding: 15px;
+    }
+}
+
+#email{
+    background-color: #191973;
+}
+
+#redes_sociais{
+    background-color: #3EC3C2;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 125px;
+    background-color: #000;
+}
+@media only screen and (max-width: 480px) {
+    main{
+        width: 98%;
+        height: 2430px;
+    }
+    #home{
+        height: 610px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 0;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #home div{
+        width: 90%;
+    }
+
+    #produtos{
+        height: 400px;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .produto{
+        height: 190px;
+        width: 40%;
+    }
+
+    #endereco{
+        height: 400px;
+    }
+
+    #contato{
+        height: 660px;
+        padding-top: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #contato div{
+        width: 90%;
+        
+    }
+}
